@@ -251,11 +251,13 @@ Export the container image to a tar archive.
 
 Note:
 ------
-If the ceph-builder container exits then you can be restarted with:
+To access the `ceph-builder` container shell:
 
-.. code-block:: bash
+- If the container is **already running**, log in using:
+  
+  .. code-block:: bash
 
-   podman start -ai ceph-builder
+     podman exec -it ceph-builder bash
 
 Deploying a Ceph Cluster Using the Custom Image
 ===============================================
