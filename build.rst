@@ -1,6 +1,5 @@
-Building Ceph from Source, Creating a Container Image, and Deploying a Cluster
-===============================================================================
-
+Building Ceph from Source on Local Environment, Creating a Container Image, and Deploying a Cluster
+==================================================================================================
 Overview
 --------
 
